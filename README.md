@@ -2,15 +2,10 @@
 #Hacker News Scraper
 This Python script scrapes Hacker News for top stories with over 100 votes. It utilizes the requests library for fetching web pages and BeautifulSoup for parsing HTML content.
 
-Usage
-Install the required dependencies by running:
+Usag
+Make sure pprint, request, and the BeautifulSoup libraries are downloaded
 
-Copy code
-pip install -r requirements.txt
-Run the script:
-
-Copy code
-python hacker_news_scraper.py
+python scrape.py
 View the output containing titles, links, and vote counts of top stories.
 
 How it works
@@ -20,8 +15,9 @@ Stories with over 100 votes are filtered and displayed in descending order of po
 Dependencies
 requests: For making HTTP requests
 BeautifulSoup: For parsing HTML content
+
 Author
-[Your Name]
+Hanad ALI
 
 License
 This project is licensed under the MIT License.
